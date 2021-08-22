@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formsnextpafe.html">
+        <label for="">Name</label>
+        <input type="text" name="name" id="">
+        <br>
+
+        <label for="">Email</label>
+        <input type="email" name="email">
+        <br>
+
+        <label for="">Language</label>
+        <input type="radio" name="language" value="react">React
+        <input type="radio" name="language" value="angular">Angular
+        <input type="radio" name="language" value="vue">Vue
+        <br>
+
+        <label for="">Courses</label>
+        <input type="checkbox" name="course" id="" value="mern">MERN
+        <input type="checkbox" name="course" id="" value="mean">MEAN
+        <input type="checkbox" name="course" id="" value="mevn">MEVN
+        <br>
+
+        <label for="">Password</label>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+
+        <!-- <label for="">Image button</label> -->
+        <!-- <input type="image" alt="Click me!" src="./MUSHROOM.jpg" width="80" height="30"> -->
+        <label for="">File Picker</label>
+        <input type="file" name="file" id="file" accept="image/*" multiple>
+        <br>
+
+        <label for="">Search Field</Fieldset></label>
+        <input type="search" id="search" name="search">
+        <br>
+
+        <label for="">Phone number</label>
+        <input type="tel" id="tel" name="tel">
+        <br>
+
+        <label for="">Number Field</label>
+        <input type="number" name="age" id="age" min="5" max="79" step="2">
+        <br>
+
+        <label for="price">With Slider</label>
+        <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
+        <output class="price-output" for="price"></output>
+        <br>
+        
+        <label for="">Date Time picker</label>
+        <input type="datetime-local" name="datetime" id="datetime">
+        <br>
+
+        <label for="">Monthe picker</label>
+        <input type="month" name="month" id="month">
+        <br>
+
+        <label for="">Time picker</label>
+        <input type="time" name="time" id="time">
+        <br>
+
+        <label for="">Color picker</label>
+        <input type="color" name="color" id="color">
+        <br>
+
+        <label for="">MultiLine text Field</label>
+        <textarea cols="30" rows="8"></textarea>
+        <br>
+
+        <label for="">Drop Down</label>
+        <select id="simple" name="simple">
+            <option>Banana</option>
+            <option selected>Cherry</option>
+            <option>Lemon</option>
+            <option value="">Mango</option>
+        </select>
+        <br>
+
+        <label for="">Multi Select dropdown</label>
+        <select id="multi" name="multi" multiple size="2">
+            <optgroup label="fruits">
+               <option>Banana</option>
+               <option selected>Cherry</option>
+               <option>Lemon</option>
+             </optgroup>
+             <optgroup label="vegetables">
+               <option>Carrot</option>
+               <option>Eggplant</option>
+               <option>Potato</option>
+             </optgroup>
+        </select>
+        <br>
+        
+        <label for="">Autocomplete Box</label>
+        <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
+           <datalist id="mySuggestion">
+               <option>Apple</option>
+               <option>Banana</option>
+               <option>Blackberry</option>
+               <option>Blueberry</option>
+               <option>Lemon</option>
+               <option>Lychee</option>
+               <option>Peach</option>
+               <option>Pear</option>
+            </datalist>
+        <br>
+
+        <br><br> 
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <button type="reset">
+        This is a <strong>reset button</strong>
+    </button>
+    <br><br>
+    <a href="./index.html">Go Back</a>
+</body>
+</html>
